@@ -17,7 +17,7 @@ STYLING
 The html sitemap can be styled easily by utilizing css. Using the sitemap for my site as an example, you should be able to work out the css needed to style the sitemap list by looking at the sitemap structure below.
 
 
-<div class="sitemap">
+`<div class="sitemap">
 	<ul>
 		<li><a href="http://www.mikebarlow.co.uk/">Home Page</a>
 			<ul>
@@ -44,4 +44,4 @@ The html sitemap can be styled easily by utilizing css. Using the sitemap for my
 		<li><a href="http://www.mikebarlow.co.uk/?bid=9">New Tutorial</a></li>
 		<li><a href="http://www.mikebarlow.co.uk/?bid=8">Welcome</a></li>
 	</ul>
-</div>
+</div>`
