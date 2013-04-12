@@ -17,31 +17,31 @@ STYLING
 The html sitemap can be styled easily by utilizing css. Using the sitemap for my site as an example, you should be able to work out the css needed to style the sitemap list by looking at the sitemap structure below.
 
 
-`<div class="sitemap">`
-    `<ul>`
-        `<li><a href="http://www.mikebarlow.co.uk/">Home Page</a>`
-            `<ul>`
-                `<li><a href="http://www.mikebarlow.co.uk/about_us.html">About</a></li>`
-                `<li><a href="http://www.mikebarlow.co.uk/contact.html">Contact</a></li>`
-                `<li><a href="http://www.mikebarlow.co.uk/projects.html">Projects</a>`
-                    `<ul>`
-                        `<li><a href="http://www.mikebarlow.co.uk/projects/mbblog-roadmap.html">mbBlog Roadmap</a></li>`
-                        `<li><a href="http://www.mikebarlow.co.uk/projects/mbblog-documentation.html">mbBlog Documentation</a></li>`
-                        `<li><a href="http://www.mikebarlow.co.uk/projects/mbsitemap-documentation.html">mbSitemap Documentation</a></li>`
-                    `</ul>`
-                `</li>`
-                `<li><a href="http://www.mikebarlow.co.uk/tutorials.html">Tutorials</a>`
-                    `<ul>`
-                        `<li><a href="http://www.mikebarlow.co.uk/tutorials/age-calculation.html">Age Calculation</a></li>`
-                    `</ul>`
-                `</li>`
-            `</ul>`
-        `</li>`
-    `</ul>`
-    `<ul>`
-        `<li><a href="http://www.mikebarlow.co.uk/?bid=12">New Project / Update Project</a></li>`
-        `<li><a href="http://www.mikebarlow.co.uk/?bid=10">Quick Update</a></li>`
-        `<li><a href="http://www.mikebarlow.co.uk/?bid=9">New Tutorial</a></li>`
-        `<li><a href="http://www.mikebarlow.co.uk/?bid=8">Welcome</a></li>`
-    `</ul>`
-`</div>`
+    <div class="sitemap">
+        <ul>
+            <li><a href="http://www.mikebarlow.co.uk/">Home Page</a>
+                <ul>
+                    <li><a href="http://www.mikebarlow.co.uk/about_us.html">About</a></li>
+                    <li><a href="http://www.mikebarlow.co.uk/contact.html">Contact</a></li>
+                    <li><a href="http://www.mikebarlow.co.uk/projects.html">Projects</a>
+                        <ul>
+                            <li><a href="http://www.mikebarlow.co.uk/projects/mbblog-roadmap.html">mbBlog Roadmap</a></li>
+                            <li><a href="http://www.mikebarlow.co.uk/projects/mbblog-documentation.html">mbBlog Documentation</a></li>
+                            <li><a href="http://www.mikebarlow.co.uk/projects/mbsitemap-documentation.html">mbSitemap Documentation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://www.mikebarlow.co.uk/tutorials.html">Tutorials</a>
+                        <ul>
+                            <li><a href="http://www.mikebarlow.co.uk/tutorials/age-calculation.html">Age Calculation</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li><a href="http://www.mikebarlow.co.uk/?bid=12">New Project / Update Project</a></li>
+            <li><a href="http://www.mikebarlow.co.uk/?bid=10">Quick Update</a></li>
+            <li><a href="http://www.mikebarlow.co.uk/?bid=9">New Tutorial</a></li>
+            <li><a href="http://www.mikebarlow.co.uk/?bid=8">Welcome</a></li>
+        </ul>
+    </div>
